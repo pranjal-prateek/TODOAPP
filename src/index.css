@@ -1,0 +1,66 @@
+
+h1{
+  color: rgb(134, 134, 237);
+}
+input{
+  background-color: transparent;
+  border: 0px solid ;
+  height: 20px;
+  width: 160px;
+  color: rgb(202, 202, 250);
+  
+  
+}
+button{
+  background-color: rgb(134, 134, 237);
+  border: 0px solid ;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.main_div{
+background: #9dd2ef;
+margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ text-align: center;
+
+}
+.center_div{
+  background: #07334b;
+  height: 50%;
+  width: 20%;
+  border-radius: 40px;
+}
+.item_added{
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  
+}
+.input_button{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.icon{
+  height: 30px;
+color: rgb(168, 168, 251);
+}
+.item{
+  color: rgb(168, 168, 251);
+  font-size: 19px;
+}
+.delete_item{
+  color: rgb(168, 168, 251);
+  font-size: 19px;
+}
