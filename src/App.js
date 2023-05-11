@@ -32,7 +32,7 @@ return(
     </div>
     <ul>
       {todoAdded.map((item)=>{
-         return <div className='item_added'><FaHeart className='icon'/><div className='item'>{item}</div><div><FaSkullCrossbones className='delete_item' /></div></div>
+         return <div className='item_added'><FaHeart className='icon'/><div className='item'>{item}</div><div><FaSkullCrossbones className='delete_item' onCLick={()=>deleteItem(item)}/></div></div>
       })}
     </ul>
     </div>
